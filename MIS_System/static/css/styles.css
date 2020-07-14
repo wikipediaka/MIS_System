@@ -1,0 +1,34 @@
+.border.rounded.form-control:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #12b319;
+  border: 1px solid #12b319;
+}
+
+#btn {
+  background-color: #ddd;
+  color: black;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+  
+}
+
+
+#btn:hover {
+  background-color: rgb(063, 187, 120);
+  color: white;
+}
+
+.navbar {
+  height: 80px;  
+  box-shadow: 1px 1px 5px;
+}
+
+.register-photo {
+  margin-top: 50px;
+}
+
+.container-fluid {
+  width: 90%;
+  
+}
