@@ -5,7 +5,7 @@ from .models import Accounts
 def SignUp(request):
     if request.method == "POST":
 
-        signUp = Accounts(Id_Number = request.POST["ID"], Full_Name = request.POST["full_name"],Status = request.POST["Status"],Department = request.POST["Department"],Email = request.POST.get("email",False),Contact = request.POST["contact_number"], Password = request.POST["Password"])
+        signUp = Accounts(Id_Number = request.POST["ID"], Full_Name = request.POST["full_name"],Status = request.POST["Status"],Department = request.POST["Department"],Email = request.POST["Email"],Contact = request.POST["contact_number"], Password = request.POST["Password"])
         signUp.save()
         return redirect ("home/")
 
